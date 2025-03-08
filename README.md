@@ -21,11 +21,11 @@ cd <repository-name>
 2. Создайте и активируйте виртуальное окружение:
 ```bash
 # Windows
-python -m venv venv
+python3.11 -m venv venv
 venv\Scripts\activate
 
 # Linux/Mac
-python3 -m venv venv
+python3.11 -m venv venv
 source venv/bin/activate
 ```
 
@@ -101,7 +101,7 @@ project/
 
 ## Технологии 💻
 
-- Python 3.7+
+- Python 3.11
 - aiogram (Telegram Bot API)
 - GigaChat API (генерация рекомендаций)
 - SQLite (хранение истории)
